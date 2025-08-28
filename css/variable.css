@@ -1,0 +1,47 @@
+:root{
+    /* color scheme */
+ --bg-light-color: #E2E2DE;
+ --bg-dark-color: #00265f;
+ --btn-color: var(--bg-dark-color);
+ --btn-hover-color:#006B8F;
+ --border-color: #73D8FA;
+ --dark-color: #000;
+ --light-color: #fff;
+ --text-light-color: var(--light-color);
+ --text-dark-color: var(--bg-dark-color);
+ --text-lighter-dark-color: var(--btn-hover-color);
+ --text-hover-color: var(--btn-hover-color);
+ --icon-color: var(--border-color);
+
+ /* fonts scheme */
+ --font-family: "Inter", sans-serif;
+ --font-large-heading-size: 4rem;
+ --font-detail-para-size: 0.8rem;
+ --icon-font-size: 1rem;
+ --font-size-link: 0.8rem;
+ --font-light: 400;
+ --font-bold: 500;
+ --font-extra-bold: 700;
+
+/* sizing */
+    --container-fluid: 100%;
+    --container: 80%;
+    --w-100: var(--container-fluid);
+    --w-80: var(--container);
+    --w-50: 50%;
+    --h-100: 100vh;
+    --h-80: 80vh;
+    --h-50: 50vh;
+
+/* spacing */
+ --line-height: 1.2;
+ --character-spacing: 1.2;
+ --word-spacing: 1;
+ --border-radius: 0.6rem;
+ --border-red: 2px solid red;
+ --border-green: 2px solid green;
+ --border-orange: 2px solid orange;
+ --border-blue: 2px solid blue;
+ --padding: 0.3rem 0.6rem;
+ --gap: 1.6rem;
+}
