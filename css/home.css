@@ -58,3 +58,43 @@
 .features-heighlights .inner-wrapper svg{
     max-width: var(--w-100);
 }
+
+
+/* featured clients section */
+
+.featured-clients{
+    width: var(--container-fluid);
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+
+}
+
+.featured-clients .inner{
+    max-width: var(--container);
+    
+}
+.featured-clients .inner .logos-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+}
+.featured-clients  .logos img{
+    max-width: 10%;
+}
+.featured-clients .detail{
+    color: var(--text-lighter-dark-color);
+}
+.featured-clients  .detail::before{
+    content: "Trusted to power integrations at "
+}
+.featured-clients  .logos{
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+}
+.featured-clients .inner .logos-wrapper .logos .special{
+    max-width: 2rem;
+}
