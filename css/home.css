@@ -98,3 +98,55 @@
 .featured-clients .inner .logos-wrapper .logos .special{
     max-width: 2rem;
 }
+
+/* growth section */
+
+.growth{
+    height: calc(var(--h-50) + 10vh);
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.growth .inner-wrapper{
+    max-width: var(--container);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
+    
+}
+
+.growth .content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    flex-basis: calc(var(--w-50) - 15vw);
+}
+.growth .content .heading{
+    font-size: var(--font-large-heading-size);
+}
+.growth .content .detail{
+    color: var(--text-lighter-dark-color);
+}
+.growth .content .btn{
+    max-width: fit-content;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    background-color: var(--btn-color);
+    color: var(--text-light-color);
+
+}
+.growth .btn:hover{
+    cursor: pointer;
+    background-color: var(--btn-hover-color);
+}
+.growth .visual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc( var(--w-50 ) + 15vw);
+    padding: 3rem;
+}
+.growth .visual img{
+    max-width: calc(var(--w-80) - 10vw);
+}
